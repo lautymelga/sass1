@@ -225,8 +225,18 @@ main {
     border: 0px;
     margin: 10px;
 
-
     &:hover {
-        transform: scale(150%);
+        transform: scale(200%);
     }
+
+    .imgPerfGal {
+        width: $anchoPerfGal;
+        height: $altoPerfGal;
+    }
+
+    .imgGal {
+        width: $anchoImgGal;
+        height: $altoImgGal;
+    }
+
 }
