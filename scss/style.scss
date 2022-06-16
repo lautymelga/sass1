@@ -226,17 +226,17 @@ main {
     margin: 10px;
 
     &:hover {
-        transform: scale(200%);
+        transform: scale(175%);
     }
 
     .imgPerfGal {
-        width: $anchoPerfGal;
-        height: $altoPerfGal;
+        width: map-get($tamañoGal, anchoPerfGal);
+        height: map-get($tamañoGal, altoPerfGal);
     }
 
     .imgGal {
-        width: $anchoImgGal;
-        height: $altoImgGal;
+        width: map-get($tamañoGal, anchoImgGal);
+        height: map-get($tamañoGal, altoImgGal);
     }
 
 }
