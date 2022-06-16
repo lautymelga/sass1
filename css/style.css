@@ -1,0 +1,205 @@
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  grid-area: header;
+  border: 10px; }
+
+.bg-image {
+  width: 100%; }
+
+.menu {
+  list-style-type: none;
+  margin: 17px;
+  background-color: none; }
+  .menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 7px;
+    background-color: none;
+    padding: 7px; }
+    .menu li a {
+      text-decoration: none;
+      display: inline-block;
+      color: #afafaf; }
+      .menu li a:hover {
+        background-color: none;
+        border-bottom: 2px solid #9b59b6;
+        color: #23f0ff;
+        transition-property: border-bottom, color;
+        transition-duration: 2s; }
+
+/* **************************** Footer **************************** */
+footer {
+  background-color: #0F0416;
+  text-align: center;
+  grid-area: footer;
+  border: 10px;
+  width: 100%; }
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #afafaf;
+  font-size: 16px; }
+
+.indexB {
+  display: grid;
+  grid-template-areas: "header" "main1" "footer"; }
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 15px; }
+  .img2 {
+    width: auto;
+    height: auto; }
+  .imgf {
+    max-width: 50px;
+    max-height: 50px; }
+  .logoHeader {
+    max-width: 150px; } }
+
+/* **************************** Main **************************** */
+main {
+  padding: 2px;
+  background-color: #0F0416;
+  width: 100%; }
+
+.imgsp {
+  display: flex;
+  justify-content: space-between; }
+
+.logoGrande {
+  padding: 0;
+  border: 10px;
+  margin-top: 100px;
+  grid-area: main1; }
+
+.imgPres {
+  padding: 0;
+  border: 0;
+  margin-top: 10px;
+  border: 10px; }
+
+.textPres {
+  border: 0rem;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  grid-area: main2;
+  border: 10px; }
+
+.PP {
+  border: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  grid-area: main3; }
+
+.planeta {
+  border: 0;
+  margin-top: 3px;
+  margin-left: 30%;
+  border: 10px;
+  position: relative;
+  animation: movimientoP 4s linear infinite; }
+
+@keyframes movimientoP {
+  0% {
+    left: 0;
+    top: 0; }
+  25% {
+    top: 0;
+    left: -550px; }
+  50% {
+    left: -550px; }
+  75% {
+    left: 0; }
+  100% {
+    top: 0px;
+    left: 0; } }
+
+.PC {
+  border: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  grid-area: main4; }
+
+.cohete {
+  margin-top: 3px;
+  margin-right: 30%;
+  border: 10px;
+  position: relative;
+  animation: movimientoC 4s linear infinite; }
+
+@keyframes movimientoC {
+  0% {
+    left: 0;
+    top: 0; }
+  25% {
+    top: 0;
+    left: 550px; }
+  50% {
+    left: 550px; }
+  75% {
+    left: 0; }
+  100% {
+    top: 0px;
+    left: 0; } }
+
+.abc {
+  border: 2px;
+  display: flex;
+  flex-direction: row-reverse; }
+
+.parrafo1 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 30%;
+  margin: 10px;
+  padding-top: 15%;
+  padding-left: 10%;
+  border: 10%; }
+
+.parrafo2 {
+  width: 30%;
+  border: 10px;
+  width: 300px;
+  margin: 10px; }
+
+.parrafosJuntos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-image: url(./imgs/violet-2.jpg);
+  grid-area: main5; }
+
+.parrafo3 {
+  border: 10px;
+  width: 300px;
+  text-align: center; }
+
+.parrafo4 {
+  border: 10px;
+  width: 300px;
+  text-align: center; }
+
+.mainGaleria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.cajaImg {
+  display: inline-block;
+  border: 0px;
+  margin: 10px; }
+  .cajaImg:hover {
+    transform: scale(150%); }

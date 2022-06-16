@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    grid-area: header;
+    border: 10px;
+}
+
+.bg-image {
+    width: 100%
+}
+
+.menu {
+    list-style-type: none;
+    margin: 17px;
+    background-color: none;
+
+    & li {
+        display: inline-block;
+        text-align: center;
+        margin: 7px;
+        background-color: none;
+        padding: 7px;
+
+        & a {
+            text-decoration: none;
+            display: inline-block;
+            color: #afafaf;
+
+            &:hover {
+                background-color: none;
+                border-bottom: 2px solid #9b59b6;
+                color: rgb(35, 240, 255);
+                transition-property: border-bottom, color;
+                transition-duration: 2s;
+            }
+        }
+    }
+}
