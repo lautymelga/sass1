@@ -159,7 +159,7 @@ main {
   display: flex;
   flex-direction: row-reverse; }
 
-.parrafo1 {
+.parrafo1, .parrafo2 {
   display: flex;
   flex-flow: row wrap;
   width: 30%;
@@ -169,10 +169,7 @@ main {
   border: 10%; }
 
 .parrafo2 {
-  width: 30%;
-  border: 10px;
-  width: 300px;
-  margin: 10px; }
+  width: 300px; }
 
 .parrafosJuntos {
   display: flex;
@@ -181,12 +178,7 @@ main {
   background-image: url(./imgs/violet-2.jpg);
   grid-area: main5; }
 
-.parrafo3 {
-  border: 10px;
-  width: 300px;
-  text-align: center; }
-
-.parrafo4 {
+.parrafo3, .parrafo4 {
   border: 10px;
   width: 300px;
   text-align: center; }

@@ -186,11 +186,8 @@ main {
 }
 
 .parrafo2 {
-
-    width: 30%;
-    border: 10px;
+    @extend .parrafo1;
     width: 300px;
-    margin: 10px;
 }
 
 .parrafosJuntos {
@@ -208,9 +205,7 @@ main {
 }
 
 .parrafo4 {
-    border: 10px;
-    width: 300px;
-    text-align: center;
+    @extend .parrafo3;
 }
 
 .mainGaleria {
