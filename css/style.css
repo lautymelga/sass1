@@ -184,6 +184,10 @@ main {
   width: 300px;
   text-align: center; }
 
+.parrafo4 {
+  align-items: center;
+  align-content: center; }
+
 .mainGaleria {
   display: flex;
   flex-direction: row;
